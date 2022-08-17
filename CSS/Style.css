@@ -1,0 +1,77 @@
+/*Universel Selector*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*Name Selector*/
+body{
+    background-color: rgb(192, 190, 190);
+}
+/*ID Selector */
+#admin-box{
+    background-color: rgb(85, 84, 84);
+    color: rgb(251, 251, 251);
+    text-align: center;
+    width: 50%;
+    margin: 5% auto;
+    padding: 30px;
+    border-radius: 10px
+    
+
+}
+/*Class Selector*/
+.admin-img{
+    width: 150px;
+}
+
+/*Decendent Selector*/
+#admin-box h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    text-shadow: black;
+
+}
+/*Grouping Selector*/
+input,label{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+
+}
+input{
+    background-color:transparent ;
+    color: black;
+    border: 1px solid black;
+    border-radius:5px;
+}
+label{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
+p a{
+    text-decoration: none;
+    color:rgb(99, 194, 250);
+    text-transform: capitalize;
+}
+input:focus{
+    background-color: rgb(208, 206, 206);
+}
+input::placeholder{
+    color: black;
+}
+#btn{
+    background-color: rgb(211, 209, 209);
+    margin: 20px auto;
+    width: 25%;
+    border: 1px solid rgb(0, 0, 0);
+}
+#btn:hover{
+background-color: transparent;
+
+}
+
+
